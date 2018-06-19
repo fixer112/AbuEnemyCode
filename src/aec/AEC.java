@@ -53,7 +53,7 @@ public class AEC {
 	 */
 	private void initialize() {
 		frmAec = new JFrame();
-		frmAec.setIconImage(Toolkit.getDefaultToolkit().getImage(AEC.class.getResource("/aec/logo.jpg")));
+		frmAec.setIconImage(Toolkit.getDefaultToolkit().getImage(AEC.class.getResource("/aec/logo.png")));
 		frmAec.setTitle("AEC");
 		frmAec.setBounds(100, 100, 450, 300);
 		frmAec.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
